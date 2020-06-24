@@ -1,4 +1,30 @@
 # Analysing-Online-Job-Posting
+
+## Table of Content
+  * [Directory Tree](#directory-tree)
+  * [Business Context](#business-context)
+  * [Business Objectives](#business-objectives)
+  * [Data Understanding](#data-understanding)
+  * [License](#license)
+
+### Directory Tree
+
+```
+├── Analysing Online Job Posting.ipynb
+├── corpus.mm
+├── corpus.mm.index
+├── dictionary.dict
+├── required_qual_tfidf.pkl
+├── required_qual_tfidf_features.pkl
+├── topic.model
+├── topic.model.expElogbeta.npy
+├── topic.model.id2word
+├── topic.model.state
+├── vis.html
+├── LICENSE
+├── README.md
+```
+
 ### Business Context:  
 The project seeks to understand the overall demand for labour in the Armenian online job market from the 19,000 job postings from 2004 to 2015 posted on CareerCenter, an Armenian human resource portal. Through text mining on this data, we will be able to understand the nature of the ever-changing job market, as well as the overall demand for labour in the Armenia economy. The data was originally scraped from a Yahoo! Mailing group. 
  
@@ -27,3 +53,27 @@ For Job Queries business question, we propose exploring the usage of Latent Sema
 
 ### Data Understanding: 
 The data was obtained from Kaggle competition. Each row represents a job post. The dataset representation is tabular, but many of the columns are textual/unstructured in nature. Most notably, the columns jobDescription, JobRequirement, RequiredQual, ApplicationP and AboutC are textual. The column jobpost is an amalgamation of these various textual columns. 
+
+### License
+
+[MIT License](https://github.com/vicky60629/Analysing-Online-Job-Posting/blob/master/LICENSE)
+
+Copyright (c) 2020 Vicky Gupta
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
